@@ -1,0 +1,36 @@
+{
+  "name": "groupomania_backend",
+  "version": "1.0.0",
+  "description": "Back end server of Groupomania (company social network)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KLdvl/OC_P7_Groupomania_KM.git"
+  },
+  "author": "Kevin Mas",
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-bouncer": "^0.2.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6",
+    "mongoose-unique-validator": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "password-validator": "^5.3.0",
+    "toobusy-js": "^0.5.1",
+    "validator": "^13.7.0"
+  }
+}
